@@ -1,3 +1,28 @@
 html, body {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #E8E8E8;
+    color: #4F4F4F;
+    min-width: 600px;
+}
+
+#main {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#title {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+#image {
+    max-width: 100%;
+}
+
+#img-caption {
+    margin-top: 10px;
 }
