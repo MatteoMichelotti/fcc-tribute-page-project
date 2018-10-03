@@ -17,6 +17,7 @@ html, body {
 #title {
     font-size: 48px;
     margin-bottom: 0;
+    color: #238884;
 }
 
 #image {
@@ -47,16 +48,44 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    transition-duration: 600ms;
+}
+
+.timeline-item:hover {
+    border-color: #238884;
 }
 
 .timeline-item > .year {
-    width: 15%;
+    width: 10%;
     font-weight: bold;
     padding: 5px 10px;
 }
 
 .timeline-item > .description {
-    width: 85%;
+    width: 90%;
     border-left: 2px solid #E0E0E0;
     padding: 5px 10px;
+    text-align: left;
+}
+
+blockquote {
+    width: 50%;
+    margin: 50px auto;
+    padding: 10px 30px;
+    border-left: 5px solid #238884;
+    text-align: left;
+}
+
+blockquote > p {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: #238884;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
 }
