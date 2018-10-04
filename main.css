@@ -48,11 +48,13 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    transition-duration: 600ms;
+    transition-duration: 300ms;
 }
 
 .timeline-item:hover {
     border-color: #238884;
+    transform: scaleX(1.05) scaleY(1.05);
+    z-index: 10;
 }
 
 .timeline-item > .year {
